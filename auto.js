@@ -10,9 +10,9 @@ var canvas1 = document.createElement("canvas");
 canvas1.style.backgroundColor = "cornsilk";
 var ctx1 = canvas1.getContext("2d");
 
-var canvas2 = document.createElement("canvas");
+var canvas2 = document.createElement("red");
 //canvas2.style.display = "none";
-canvas2.style.backgroundColor = "cornsilk";
+canvas2.style.backgroundColor = "blue";
 var ctx2 = canvas2.getContext("2d");
 
 var canvas3 = document.createElement("canvas");
