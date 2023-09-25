@@ -7,17 +7,17 @@ var logArea = document.getElementsByName("UserCheckCode")[0];
 
 var canvas1 = document.createElement("canvas");
 //canvas1.style.display = "none";
-canvas1.style.backgroundColor = "cornsilk";
+canvas1.style.backgroundColor = "white";
 var ctx1 = canvas1.getContext("2d");
 
-var canvas2 = document.createElement("red");
+var canvas2 = document.createElement("canvas");
 //canvas2.style.display = "none";
 canvas2.style.backgroundColor = "blue";
 var ctx2 = canvas2.getContext("2d");
 
 var canvas3 = document.createElement("canvas");
 //canvas3.style.display = "none";
-canvas3.style.backgroundColor = "cornsilk";
+canvas3.style.backgroundColor = "red";
 var ctx3 = canvas3.getContext("2d");
 
 document.getElementsByTagName("body")[0].appendChild(canvas1);
